@@ -4,12 +4,12 @@ body {
 	font-size: 24;
 	font-family: Arial, Times;
 	text-align: center;
-	height: 1980px;
-	width: 1020px;
-}
+	}
+
 .centrarimgdiv {
 	text-align:center;
 }
+
 img.home {
 	width: 800px;
 	text-align: center;
