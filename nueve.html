@@ -2,14 +2,27 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="CSS/estilo.css"/>
-		<title>Historia</title> <!--titulo provisional-->
+		<title>Historia</title>
+		<script type="text/javascript" src="JS/jquery-1.11.0.min"></script> <!--titulo provisional-->
 	</head>
 	<body>
- 			<div class="centrarimgdiv"> <img src="imagenes/pag9.jpg" class="home"></div>
+ 			<div class="centrarimgdiv"> <img src="imagenes/playa_10.jpg" class="home"></div>
  					<!--estoy intentando centrar la imagen pero no puedo-->
  			
 
- 			<script type="text/javascript" src="JS/jquery-1.11.0.min"></script>
+ 			
+ 			            <script>
+                // aca pasa toda la magia :)
+                var URL = 'diez.html'; // a donde va
+
+                window.setTimeout(changePage, 1000); //luego de dos segundos llama a la funcion changePage
+
+                function changePage () {
+                    window.location = URL;
+                 } 
+
+            </script>
+
 
 	</body>
 
